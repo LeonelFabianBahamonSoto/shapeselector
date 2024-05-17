@@ -60,7 +60,7 @@ const MainScreenForm = () =>
                     selectedItems={ selectedItems }
                     selectText={ "Mostrar figuras geométricas" }
                     searchInputPlaceholderText={ "Ingrese el nombre de la figura" }
-                    onChangeInput={(text) => console.log( '---> TEXT: ', text)}
+                    onChangeInput={(text) => {}}
                     selectedItemTextColor="#37c61b"
                     selectedItemIconColor="white"
                     itemTextColor="#434b4d"
