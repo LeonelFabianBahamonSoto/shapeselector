@@ -1,11 +1,11 @@
 import { createStackNavigator } from '@react-navigation/stack';
+
 import { MainScreenView } from '../views/home/mainPage/MainScreenView';
+import { DetailGeometricFigure } from '../views/home/figureDetail/DetailGeometricFigure';
 
 export type RootStackParams = {
     MainScreenView: undefined,
-    // Notifications: undefined,
-    // Profile: undefined,
-    // Settings: undefined,
+    DetailGeometricFigure: { figureId: number },
 };
 
 const Stack = createStackNavigator<RootStackParams>();
@@ -33,7 +33,8 @@ export const StackNavigator = () => {
                 gestureEnabled: true,
             }}
         >
-            <Stack.Screen name="MainScreenView" component={ MainScreenView } options={{ transitionSpec: { open: config, close: config } }} />
+            <Stack.Screen name="MainScreenView"        component={ MainScreenView } options={{ transitionSpec: { open: config, close: config } }} />
+            <Stack.Screen name="DetailGeometricFigure" component={ DetailGeometricFigure } options={{ transitionSpec: { open: config, close: config } }} />
 
         </Stack.Navigator>
     );
