@@ -66,6 +66,6 @@ export const figureScreenFormTheme = StyleSheet.create({
         color: '#1C1C1E',
         fontSize: 23,
         fontWeight: '700',
-        marginBottom: '10%',
+        marginVertical: '20%',
     },
 });

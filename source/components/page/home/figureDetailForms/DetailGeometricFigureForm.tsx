@@ -30,9 +30,6 @@ const DetailGeometricFigureForm = ( { navigator, figureId }: DetailGeometricFigu
         myFigure();
     }, []);
 
-    useEffect(() => {
-    }, [ figureId ]);
-
     const myFigure = () => {
         ( figureId === 1 ) && setFigure( lottieSources[ 'triangulo' ] );
         ( figureId === 2 ) && setFigure( lottieSources[ 'cuadrado' ] );
@@ -51,11 +48,7 @@ const DetailGeometricFigureForm = ( { navigator, figureId }: DetailGeometricFigu
                 </TouchableOpacity>
             </View>
 
-            <Text></Text>
-
-            <View>
-
-            </View>
+            <Text style={[ figureScreenFormTheme.title ]}>Figura seleccionada</Text>
 
             {
                 ( figure )
@@ -68,7 +61,6 @@ const DetailGeometricFigureForm = ( { navigator, figureId }: DetailGeometricFigu
                         />
                     </>
             }
-
 
         </View>
     )
