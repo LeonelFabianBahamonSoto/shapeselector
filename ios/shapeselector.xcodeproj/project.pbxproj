@@ -44,9 +44,10 @@
 		5B7EB9410499542E8C5724F5 /* Pods-shapeselector-shapeselectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapeselector-shapeselectorTests.debug.xcconfig"; path = "Target Support Files/Pods-shapeselector-shapeselectorTests/Pods-shapeselector-shapeselectorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-shapeselector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shapeselector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = shapeselector/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843931692BF6C68800029C22 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-shapeselector-shapeselectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapeselector-shapeselectorTests.release.xcconfig"; path = "Target Support Files/Pods-shapeselector-shapeselectorTests/Pods-shapeselector-shapeselectorTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3DAF371EAE68C0D16162CB9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = shapeselector/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F3DAF371EAE68C0D16162CB9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = shapeselector/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				843931682BF6C64400029C22 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* shapeselector */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* shapeselectorTests */,
@@ -140,6 +142,14 @@
 				00E356EE1AD99517003FC87E /* shapeselectorTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		843931682BF6C64400029C22 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				843931692BF6C68800029C22 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
